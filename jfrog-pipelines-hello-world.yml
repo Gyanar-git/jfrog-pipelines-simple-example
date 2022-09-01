@@ -16,6 +16,7 @@ resources:
         include: ^{{gitBranch}}$
       buildOn:
         pullRequestCreate: true
+        tagCreate: true
       cancelPendingRunsOn:
         pullRequestUpdate: true
 
