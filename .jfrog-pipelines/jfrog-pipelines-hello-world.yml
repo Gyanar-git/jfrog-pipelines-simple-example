@@ -34,7 +34,7 @@ resources:
       
 pipelines:
   - name: my_first_pipeline
-     steps:
+    steps:
       - name: test_app
         type: Jenkins
         configuration:
