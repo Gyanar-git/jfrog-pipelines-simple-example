@@ -35,13 +35,6 @@ resources:
 pipelines:
   - name: my_first_pipeline
     steps:
-      - name: test_app
-        type: Jenkins
-        configuration:
-          jenkinsJobName: testPipeline
-          integrations:
-            - name: jenkinsIntegrationForHook     
-        
       - name: p1_s1
         type: Bash
         configuration:
