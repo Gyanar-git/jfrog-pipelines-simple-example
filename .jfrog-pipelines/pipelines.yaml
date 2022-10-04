@@ -7,6 +7,8 @@ resources:
       # Repository path, including org name/repo name
       # path: jfbetapipeorg/Org_test_Automation_Webhooks
       path: Gyanar-git/myFirstRepo
+      files: 
+       include: ^README.md$
       branches:
         # Specifies which branches will trigger dependent steps
         include: ^{{gitBranch}}$
